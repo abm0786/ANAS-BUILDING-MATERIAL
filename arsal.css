@@ -1,15 +1,15 @@
 *{
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
 }
 
 .back-video{
-    position: absolute ;
+    position: fixed;
     right: 0;
     bottom: 0;
     z-index: -1;
+    size: 393px 851px;
 }
 @media (min-aspect-ratio: 16/9){
     .back-video{
@@ -17,7 +17,7 @@
         height: auto;
     }
 }
-@media (max-aspect-ratio: 16/9){
+@media (max-aspect-ratio: 9/16){
     .back-video{
         width: auto;
         height:100%;
