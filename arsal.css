@@ -1,25 +1,14 @@
 *{
     margin: 0;
-    box-sizing: border-box;
-    font-family: 'poppins', sans-serif;
+    padding: 0;
 }
-
-.back-video{
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-    size: 393px 851px;
+.main{
+    width: 100%;
+    height: auto;
+    background-image: url(images/ta10.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-@media (min-aspect-ratio: 16/9){
-    .back-video{
-        width: 100%;
-        height: auto;
-    }
-}
-@media (max-aspect-ratio: 9/16){
-    .back-video{
-        width: auto;
-        height:100%;
-    }
+.zero{
+    color: white;
 }
